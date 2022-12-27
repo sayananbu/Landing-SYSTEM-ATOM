@@ -1,0 +1,9 @@
+#logo{
+	position: absolute;
+	width: 200px;
+	height: 56px;
+	left: 43px;
+	top: 24px;
+	background: url(../img/logo.svg);
+	backdrop-filter: blur(25px);
+}

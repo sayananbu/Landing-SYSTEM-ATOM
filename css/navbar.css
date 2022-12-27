@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Comfortaa';
+	src: url(../fonts/Comfortaa.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto.ttf);
+}
+.navbar{
+	display: flex;
+	padding: 0 24px;
+	justify-content: center;
+	align-items: center;
+	background-color: #32466A;
+	height: 60px;
+	margin: 24px 0 0 0;
+	font-family: 'Comfortaa';
+	font-size: 24px;
+	position: sticky;
+	top: 24px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.navbar > *{
+	margin:0 40px 0 0;
+}
+.navbar-block:last-child{
+	margin: 0;
+}
+.navbar-block__link{
+	background-color: transparent;
+	border:none;
+	color: #fff;
+}
+.navbar-block__link:hover{
+	background-color: #fff;
+	color:#000;
+}
+.navbar-block:hover{
+	background-color: #fff;
+}
