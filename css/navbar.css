@@ -6,42 +6,90 @@
 	font-family: 'Roboto';
 	src: url(../fonts/Roboto.ttf);
 }
-.navbar{
+.custom_navbar{
 	display: flex;
-	padding: 0 24px;
+	position: relative;
 	justify-content: center;
-	align-items: center;
 	background-color: #32466A;
 	height: 60px;
 	margin: 24px 0 0 0;
-	font-family: 'Comfortaa';
-	font-size: 24px;
 	position: sticky;
 	top: 24px;
 	border-radius: 50px;
 	overflow: hidden;
 }
 .navbar-block{
-	height: 100%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.navbar > *{
-	padding:0 40px 0 0;
-}
-.navbar-block:last-child{
-	margin: 0;
-}
-.navbar-block__link{
-	background-color: transparent;
-	width: 100%;
+	position: relative;
 	height: 100%;
-	border:none;
-	color: #fff;
+	max-width: 100%;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
 	transition: .2s;
 }
-.navbar-block__link:hover{
-	background-color: #fff;
-	color:#000;
+.navbar-block input[type='radio']:checked + label:after {
+	content: "";
+	position: absolute;
+	transition: .2s;
+	height: 100px;
+	top: 50;
+	right: 0;
+	width: 30px;
+	background-color: #E0EEFF;
+	transform: rotate(20deg) translateX(10px);
+}
+.navbar-block input[type='radio']:checked + label:before {
+	content: "";
+	position: absolute;
+	transition: .2s;
+	height: 100px;
+	top: 50;
+	left: 0;
+	width: 30px;
+	background-color: #E0EEFF;
+	transform: rotate(20deg) translateX(-10px);
+}
+
+.navbar-block input[type='radio']{
+	display: none;
+}
+.navbar-block input[type='radio']:checked + label{
+	color: #000;
+	background-color: #E0EEFF;
+	
+}
+.navbar-block input[type='radio']:disabled + label{
+	color: #fff;
+	background-color: transparent;
+}
+.navbar-block label{
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	user-select: none;
+	//transition: .1s;
+}
+.navbar-block__label{
+	background-color: transparent;
+	border:none;
+	padding: 0 20px 0 20px;
+	color: #fff;
+	font-family: 'Comfortaa';
+	font-size: 24px;
+	
+}
+
+@media screen and (max-width: 1540px) {
+	.navbar-block__label{
+		font-size: 20px;
+
+	}
+	.custom_navbar{
+		height: 45px;
+		top:34px;
+	}
 }

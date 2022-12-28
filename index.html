@@ -8,19 +8,37 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/logo.css">
 	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
 	<link rel="icon" href="img/ico.svg">
 	<title>СНИИП-Систематом</title>
 </head>
 <body class="body">
 	<div class="container">
 		<div id="logo"></div>
-		<nav class="navbar">
-			<div class="navbar-block"><button class="navbar-block__link">Главная</button></div>
-			<div class="navbar-block"><button class="navbar-block__link">О компании</button></div>
-			<div class="navbar-block"><button class="navbar-block__link">Продукция</button></div>
-			<div class="navbar-block"><button class="navbar-block__link">Проекты</button></div>
-			<div class="navbar-block"><button class="navbar-block__link">Контакты</button></div>
+		<nav class="custom_navbar">
+			<div class="navbar-block"> 
+				<input type="radio" name="radio" id="link_main" class="radio">
+				<label for="link_main" class="navbar-block__label">Главная</label>
+			</div>
+			<div class="navbar-block"> 
+				<input type="radio" name="radio" id="link_company" class="radio">
+				<label for="link_company" class="navbar-block__label">О компании</label>
+			</div>
+			<div class="navbar-block"> 
+				<input type="radio" name="radio" id="link_product" class="radio">
+				<label for="link_product" class="navbar-block__label">Продукция</label>
+			</div>
+			<div class="navbar-block"> 
+				<input type="radio" name="radio" id="link_projects" class="radio">
+				<label for="link_projects" class="navbar-block__label">Проекты</label>
+			</div>
+			<div class="navbar-block"> 
+				<input type="radio" name="radio" id="link_contacts" class="radio">
+				<label for="link_contacts" class="navbar-block__label">Контакты</label>
+			</div>
 		</nav>
 	</div>
+	<script src="js/index.js"></script>
 </body>
 </html>

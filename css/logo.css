@@ -4,6 +4,42 @@
 	height: 56px;
 	left: 43px;
 	top: 24px;
+
 	background: url(../img/logo.svg);
-	backdrop-filter: blur(25px);
+	background-size: contain;
+	background-repeat: no-repeat;
+	//backdrop-filter: blur(25px);
+}
+@media screen and (max-width: 1540px) {
+	#logo{
+		left:23px;
+	}
+}
+@media screen and (max-width: 1490px) {
+	#logo{
+		left:13px;
+	}
+}
+@media screen and (max-width: 1460px) {
+	#logo{
+		left:23px;
+		top: 34px;
+		width: 150px;
+		height: 56px;
+	}
+}
+@media screen and (max-width: 1400px) {
+	#logo{
+		left:23px;
+		width: 140px;
+		height: 56px;
+	}
+}
+@media screen and (max-width: 1370px) {
+	#logo{
+		left:23px;
+		width: 120px;
+		height: 56px;
+		top: 38px;
+	}
 }
