@@ -10,7 +10,7 @@
 	background-repeat: no-repeat;
 	//backdrop-filter: blur(25px);
 }
-@media screen and (max-width: 1540px) {
+/* @media screen and (max-width: 1540px) {
 	#logo{
 		left:23px;
 	}
@@ -42,4 +42,4 @@
 		height: 56px;
 		top: 35px;
 	}
-}
+} */
