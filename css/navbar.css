@@ -1,12 +1,12 @@
 .nav-section{
 	position: sticky;
+	z-index: 1000;
 	top: 0;
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 	backdrop-filter: blur(25px);
-	margin: auto;
 	padding: 20px 0 20px 0;
 }
 .custom-navbar{
@@ -18,6 +18,7 @@
 	border-radius: 50px;
 	border: 0;
 	overflow: hidden;
+	box-shadow: 0px 2px 5px #32466A;
 }
 .navbar-block{
 	display: flex;
@@ -82,17 +83,10 @@
 	font-size: 24px;
 	
 }
+.navbar-block__label:hover{
+	color: #ddd;
+}
 
-/* @media screen and (max-width: 1540px) {
-	.navbar-block__label{
-		font-size: 20px;
-
-	}
-	.custom_navbar{
-		height: 45px;
-		top:34px;
-	}
-} */
 
 /* Test */
 .nav-section{
