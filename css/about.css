@@ -1,6 +1,6 @@
 #about-page{
 	display: flex;
-	justify-content: center;
+	//justify-content: center;
 	flex-direction: column;
 }
 .block-title{
@@ -49,21 +49,15 @@
 	flex-direction: column;
 	padding: 0 50px;
 }
-.text-photo, .photo-photo{
+.text-photo{
 	margin: 15px 0;
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 }
 .photo{
+	position: relative;
 	border-radius: 5px;
-}
-#photo-1{
-	background-image: url('../img/photos/photo-1.svg');
-	width: 500px;
-	height: 400px;
-}
-#photo-2{
-	background-image: url('../img/photos/photo-2.svg');
-	width: 500px;
+	background-color: red;
+	width: 400px;
 	height: 400px;
 }
