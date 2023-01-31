@@ -51,10 +51,11 @@
       <button id="language">en</button>
     </div>
 
-    <div class="container container-lg">
-      <main id="main">
-		<!-- Title -->
-        <section id="title-page">
+    <!-- <div class="container container-lg"> -->
+    <main id="main">
+      <!-- Title -->
+      <section id="title-page">
+        <div class="container">
           <h1 class="title-page__title">ЗАО «СНИИП-СИСТЕМАТОМ»</h1>
           <span class="hr-white-bold"></span>
           <h3 class="title-page__description">
@@ -102,14 +103,16 @@
               </div>
             </div>
           </div>
-        </section>
-		<!-- /Title -->
-		<!-- About -->
-        <section id="about-page">
-          <div class="block-title">
+        </div>
+      </section>
+      <!-- /Title -->
+      <!-- About -->
+      <section id="about-page">
+        <div class="container align-items-start">
+          <div class="about-page__title">
             <h2 class="title">О компании</h2>
           </div>
-          <div class="general-text__black">
+          <div class="about-page__description general-text">
             <p>
               Закрытое акционерное общество «СНИИП-СИСТЕМАТОМ» образовано в 1994
               году в результате реорганизации Союзного
@@ -119,24 +122,26 @@
               председателем акционерного общества был Виталий Степанович Жернов.
             </p>
           </div>
-          <div class="figure-grid__blue" id="figure-1">
+        </div>
+        <div class="block-blue" id="figure-1">
+          <div class="container">
             <div class="text-photo">
-              <p class="general-text__white">
-                Основными видами деятельности компании являются разработка,
-                производство, ввод в эксплуатацию и сопровождение эксплуатации
-                аппаратуры для систем важных для безопасности на энергетических
-                реакторах типов ВВР и БН, а также на исследовательских реакторах
-                и критических стендах различных типов, и других объектах
-                использования атомной энергии.
-              </p>
+                <p class="general-text white">
+					Основными видами деятельности компании являются разработка,
+					производство, ввод в эксплуатацию и сопровождение эксплуатации
+					аппаратуры для систем важных для безопасности на
+					энергетических реакторах типов ВВР и БН, а также на
+					исследовательских реакторах и критических стендах различных
+					типов, и других объектах использования атомной энергии.
+				  </p>
               <div class="photo" id="photo-1"></div>
             </div>
             <div id="block-icon">
               <div id="icon"></div>
             </div>
-            <div class="text-photo">
+            <div class="text-photo justify-content-between">
               <div class="photo" id="photo-2"></div>
-              <p class="general-text__white">
+              <p class="general-text white">
                 Компания «СНИИП-СИСТЕМАТОМ» имеет необходимую инфраструктуру и
                 специалистов для разработки конструкторской документации,
                 производства и испытаний аппаратуры: несколько отделов
@@ -147,7 +152,9 @@
               </p>
             </div>
           </div>
-          <div class="general-text__black">
+        </div>
+        <div class="container">
+          <div class="about-page__description general-text">
             <p>
               Компания имеет лицензии на конструирование, изготовление и
               эксплуатацию оборудования для ядерных установок атомных станций
@@ -156,7 +163,7 @@
               качества компании сертифицирована на соответствие ISO 9001:2008.
             </p>
           </div>
-          <div class="general-text__black">
+          <div class="about-page__description general-text">
             <p>
               Для выполнения производственных задач «СНИИП-СИСТЕМАТОМ»
               привлекает проверенных контрагентов, имеющих необходимые
@@ -167,12 +174,14 @@
               продукции проводятся в аккредитованных компаниях.
             </p>
           </div>
-          <div class="figure-grid__blue" id="figure-2">
-            <div class="text-photo">
-              <div id="photo-3"></div>
-              <div id="photo-4"></div>
+        </div>
+        <div class="block-blue" id="figure-2">
+          <div class="container">
+            <div class="text-photo justify-content-center">
+              <div id="photo-3" class="photo me-3"></div>
+              <div id="photo-4" class="photo ms-3"></div>
             </div>
-            <p class="general-text__white">
+            <p class="general-text white">
               Специалисты компании участвуют в пуско-наладочных работах на
               объектах, выполняют работы по авторскому сопровождению
               эксплуатации и ремонту аппаратуры. Накопленный практический опыт
@@ -184,10 +193,11 @@
               потребностей наших Заказчиков.
             </p>
           </div>
-        </section>
-		<!-- /About -->
-      </main>
-    </div>
+        </div>
+      </section>
+      <!-- /About -->
+    </main>
+    <!-- </div> -->
 
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
