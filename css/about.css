@@ -9,8 +9,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	animation: spin 10s linear infinite ;
-	width: 70px;
-	height: 70px;
+	width: 80px;
+	height: 80px;
 }
 @keyframes spin{
 	from{
@@ -20,7 +20,7 @@
 		transform: rotate(360deg);
 	}
 }
-.about-page__title{
+.block-title{
 	display: inline-block;
 	border-bottom: 5px solid #32466A;
 	border-radius: 5px;
@@ -34,19 +34,18 @@
 	font-size: 40px;
 	line-height: 47px;
 	margin: 0 0 20px 0;
-	
 }
 .general-text{
 	color: #000;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 28px;
 	line-height: 35px;
 	text-indent: 15px;
 }
 .about-page__description{
-	border-left: 5px solid #E8F2FF;
+	border-left: 5px solid #adcdf7;
 	margin: 30px 0 30px 20px;
 	border-radius: 3px;
 }
@@ -66,16 +65,38 @@
 .text-photo{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	margin: 25px 0;
 	width: 100%;
 }
 .photo{
 	border-radius: 5px;
 	background-color: rgba(255, 0, 0, .4);
-	width: 567px;
+	width: 620px;
 	height: 492px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#photo-1{
+	background-image: url('../img/photos/photo-1.svg');
+}
+#photo-2{
+	background-image: url('../img/photos/photo-2.svg');
+}
+#photo-3{
+	background-image: url('../img/photos/photo-3.svg');
+}
+#photo-4{
+	background-image: url('../img/photos/photo-4.svg');
 }
 .center-text{
 	text-align: center;
+}
+#figure-1{
+	padding: 70px 0 50px 0;
+	margin: 35px 0 70px 0;
+}
+#figure-2{
+	padding: 80px 0 0 0;
+	margin: 70px 0 0 0;
 }
