@@ -24,11 +24,8 @@
 	}
 }
 .block-title{
-	display: inline-block;
-	border-bottom: 5px solid #32466A;
-	border-radius: 5px;
+	display: block;
 	margin: 73px 0 60px 20px;
-	width: 370px;
 }
 .title{
 	font-family: 'Rubik';
@@ -36,7 +33,6 @@
 	font-weight: 600;
 	font-size: 40px;
 	line-height: 47px;
-	margin: 0 0 20px 0;
 }
 .general-text{
 	color: #000;
