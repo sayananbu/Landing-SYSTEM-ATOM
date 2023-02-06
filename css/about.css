@@ -73,14 +73,16 @@
 	left: 0;
 	top: 0;
 }
+.block-blue__top-arrow_up .arrow-bar{
+	top: -150px;
+}
 .arrow-bar{
 	position: absolute;
-	top: 0;
 	left: 50;
 	//border: 1px solid #000;
 	background-color: #fff;
 	width: 10000px;
-	height: 50px;
+	height: 200px;
 }
 .block-blue__top-arrow_up .left-bar{
 	transform: rotate(-3deg);
@@ -110,10 +112,13 @@
 	overflow: hidden;
 	justify-content: center;
 	width: 100%;
-	height: 75px;
+	height: 85px;
 	background-color: #fff;
 	left: 0;
 	top: 0;
+}
+.block-blue__top-arrow_down .arrow-bar_blue{
+	bottom: -175px;
 }
 .block-blue__top-arrow_down .left-bar{
 	transform: rotate(3deg);
@@ -123,10 +128,10 @@
 }
 .arrow-bar_blue{
 	position: absolute;
-	bottom: -56px;
+	
 	left: 50;
 	width: 10000px;
-	height: 80px;
+	height: 180px;
 	background-color: #32466A;
 }
 .text-photo{
