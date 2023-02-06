@@ -12,9 +12,11 @@
 .quallity-managment__certificate-block{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	width: 100%;
 	margin: 32px 0 0 0;
 }
 .certificate{
 	width: 500px;
+	margin: 15px 30px ;
 }

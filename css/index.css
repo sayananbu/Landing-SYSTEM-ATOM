@@ -35,6 +35,18 @@
 	font-weight: 600;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Rubik';
+	src: url(../fonts/Rubik.ttf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Rubik';
+	src: url(../fonts/Rubik.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
 body{
 	display: flex;
 	justify-content: center;
