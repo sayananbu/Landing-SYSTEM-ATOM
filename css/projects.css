@@ -1,0 +1,10 @@
+#projects{
+	word-wrap: 100%;
+}
+.projects-page__slider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 500px;
+}
