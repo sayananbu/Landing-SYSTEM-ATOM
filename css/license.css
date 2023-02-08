@@ -29,19 +29,21 @@
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 38px;
+	color: #000;
 }
 .links-block{
 	position: relative;
 	display: block;
 	width: 60%;
 	min-width: 600px;
-	//max-width:1000px;
 	margin: 0 0 30px 0;
 }
 .link-container__link-icon{
 	width: 60px;
 	height: 60px;
 	margin: 0 18px 0 0;
+	fill: black;
+	transition: .2s;
 }
 .link-text__full-name{
 	font-family: 'Roboto';
@@ -63,11 +65,39 @@
 	display: flex;
 	flex-direction: column;
 }
-.links-block__link-container{
+.links-block__link-container a{
+	text-decoration: none;
+	color: #000;
 	position: relative;
 	display: flex;
 	margin: 0 0 40px 0;
 	align-items: center;
+	transition: .2s;
+}
+.links-block__link-container a:hover{
+	color: #37457f;
+}
+.links-block__link-container a:focus{
+	color: #573780;
+}
+.links-block__link-container a:hover .link-container__link-icon{
+	fill: #37457f;
+	animation: tremble .3s linear;
+}
+.links-block__link-container a:focus .link-container__link-icon{
+	fill: #573780;
+	transform: rotate(45deg);
+}
+@keyframes tremble {
+	25%{
+		transform: rotate(15deg);
+	}
+	50%{
+		transform: rotate(-30deg);
+	}
+	75%{
+		transform: rotate(15deg);
+	}
 }
 .links-block__link-container:last-child{
 	margin: 0;
