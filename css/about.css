@@ -76,6 +76,9 @@
 .block-blue__top-arrow_up .arrow-bar{
 	top: -150px;
 }
+.block-blue .container{
+	margin: 20px 0;
+}
 .arrow-bar{
 	position: absolute;
 	left: 50;
@@ -142,10 +145,8 @@
 }
 .photo{
 	border-radius: 5px;
-	background-color: rgba(255, 0, 0, .4);
 	width: 620px;
 	height: 492px;
-	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
