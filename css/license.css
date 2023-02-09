@@ -86,7 +86,6 @@
 }
 .links-block__link-container a:focus .link-container__link-icon{
 	fill: #573780;
-	transform: rotate(45deg);
 }
 @keyframes tremble {
 	25%{

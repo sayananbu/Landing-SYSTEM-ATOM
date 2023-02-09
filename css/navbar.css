@@ -7,14 +7,14 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
-	padding: 20px 0 20px 0;
+	padding: 5px 0 5px 0;
 }
 .custom-navbar{
 	display: flex;
 	position: relative;
 	justify-content: center;
 	background-color: #32466A;
-	height: 50px;
+	height: 40px;
 	border-radius: 50px;
 	border: 0;
 	overflow: hidden;
@@ -24,13 +24,49 @@
 	display: flex;
 	position: relative;
 	height: 100%;
-	max-width: 100%;
 	width: 200px;
 	justify-content: center;
 	align-items: center;
-	transition: .2s;
 }
-.navbar-block input[type='radio']:checked + label:after {
+.navbar-block__label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	padding: 0 20px;
+	color: #fff;
+	line-height: 1;
+	text-decoration: none;
+	font-family: 'Comfortaa';
+	font-size: 24px;
+}
+.navbar-block__label:hover{
+	color: #ddd;
+}
+.active:hover{
+	color: #000;
+}
+.active{
+	position: relative;
+	z-index: 1000;
+	color: #000;
+	background-color: #E0EEFF;
+}
+.active:before {
+	content: "";
+	z-index: 10;
+	position: absolute;
+	height: 150px;
+	top: 50;
+	left: 0;
+	width: 20px;
+	background-color: #E0EEFF;
+	transform: rotate(20deg) translateX(-10px);
+}
+.active:after {
 	content: "";
 	position: absolute;
 	height: 100px;
@@ -40,54 +76,9 @@
 	background-color: #E0EEFF;
 	transform: rotate(20deg) translateX(10px);
 }
-.navbar-block input[type='radio']:checked + label:before {
-	content: "";
-	position: absolute;
-	height: 100px;
-	top: 50;
-	left: 0;
-	width: 20px;
-	background-color: #E0EEFF;
-	transform: rotate(20deg) translateX(-10px);
-}
-
-.navbar-block input[type='radio']{
-	display: none;
-}
-.navbar-block input[type='radio']:checked + label{
+.active a{
 	color: #000;
-	background-color: #E0EEFF;
-	
 }
-.navbar-block input[type='radio']:disabled + label{
-	color: #fff;
-	background-color: transparent;
-}
-.navbar-block label{
-	display: flex;
-	cursor: pointer;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-	user-select: none;
-}
-.navbar-block__label{
-	background-color: transparent;
-	border:none;
-	padding: 0 20px 0 20px;
-	color: #fff;
-	line-height: 1;
-	font-family: 'Comfortaa';
-	font-size: 24px;
-	
-}
-.navbar-block__label:hover{
-	color: #ddd;
-}
-
-
-/* Test */
-.nav-section{
-	backdrop-filter: blur(25px);
+.active a:hover{
+	color: #000;
 }
