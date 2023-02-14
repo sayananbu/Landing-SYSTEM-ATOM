@@ -1,2 +1,2 @@
 
-$("#navbar-scrollspy").scrollspy({ offset: -55 });
+$("#navbar-scrollspy").scrollspy({ offset: -60 });
