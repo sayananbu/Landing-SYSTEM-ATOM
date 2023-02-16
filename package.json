@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.21"
+  },
+  "browserslist": [
+    "last 5 version",
+    "> 2%",
+    "not dead"
+  ],
+  "dependencies": {
+    "autoprefixer": "^10.4.13"
+  }
+}
