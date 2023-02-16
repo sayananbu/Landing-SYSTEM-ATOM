@@ -21,5 +21,6 @@
 	margin: 0 0 0 25px;
 	line-height: 2.2;
 	font-weight: 500;
-	box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	        box-shadow: 0 0 5px #888;
 }

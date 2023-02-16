@@ -1,5 +1,7 @@
 #license-page{
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 }
@@ -43,6 +45,8 @@
 	height: 60px;
 	margin: 0 18px 0 0;
 	fill: black;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
 	transition: .2s;
 }
 .link-text__full-name{
@@ -62,16 +66,27 @@
 }
 .link-container__link-text{
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .links-block__link-container a{
 	text-decoration: none;
 	color: #000;
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0 0 40px 0;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
 	transition: .2s;
 }
 .links-block__link-container a:hover{
@@ -82,20 +97,38 @@
 }
 .links-block__link-container a:hover .link-container__link-icon{
 	fill: #37457f;
-	animation: tremble .3s linear;
+	-webkit-animation: tremble .3s linear;
+	        animation: tremble .3s linear;
 }
 .links-block__link-container a:focus .link-container__link-icon{
 	fill: #573780;
 }
-@keyframes tremble {
+@-webkit-keyframes tremble {
 	25%{
-		transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+		        transform: rotate(15deg);
 	}
 	50%{
-		transform: rotate(-30deg);
+		-webkit-transform: rotate(-30deg);
+		        transform: rotate(-30deg);
 	}
 	75%{
-		transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+		        transform: rotate(15deg);
+	}
+}
+@keyframes tremble {
+	25%{
+		-webkit-transform: rotate(15deg);
+		        transform: rotate(15deg);
+	}
+	50%{
+		-webkit-transform: rotate(-30deg);
+		        transform: rotate(-30deg);
+	}
+	75%{
+		-webkit-transform: rotate(15deg);
+		        transform: rotate(15deg);
 	}
 }
 .links-block__link-container:last-child{
@@ -113,10 +146,17 @@
 	border-radius: 5px;
 }
 .lecense-page__links-and-img{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	width: 100%;
 }
 /* подогнать по позиции */

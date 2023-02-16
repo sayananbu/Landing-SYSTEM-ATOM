@@ -1,0 +1,130 @@
+@media (min-width: 1200px) {
+	/* navbar */
+	#logo{
+		width: 180px;
+	}
+	.custom-navbar{
+		max-width: 850px;
+		height: 35px;
+	}
+	.navbar-block{
+		width: 180px;
+	}
+	.navbar-block__label{
+		font-size: 20px;
+	}
+
+	/* title-page */
+	.title-page__description{
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.title-page__title{
+		font-size: 46px;
+		margin: 0;
+	}
+	.hr-white-bold{
+		margin: 20px 0 25px 0;
+		height: 5px;
+	}
+	.title-page__options{
+		margin: 20px 0 10px 0;
+	}
+	.option-item__text{
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.row{
+		margin: 0;
+	}
+
+	/* about-page */
+	.general-text{
+		font-size: 23px;
+	}
+	.photo{
+		height: 385px;
+	}
+
+	/* license-page */
+	
+	.link-text__full-name{
+		font-size: 20px;
+	}
+	.link-text__iso-name{
+		font-size: 20px;
+	}
+	.links-block{
+		width: 50%;
+	}
+	.license-image{
+		width: 280px;
+	}
+	.images-block{
+		min-width: 480px;
+	}
+	.images-block__img-3{
+		bottom: 140px;
+		
+	}
+
+	/* certificates */
+	.certificate{
+		width: 350px;
+	}
+
+	/* products */
+	.cards-block__card{
+		height: 430px;
+		width: 300px;
+	}
+	.card__image-container{
+		height: 160px;
+	}
+	.card-text-block__title{
+		font-size: 26px;
+	}
+	.card-text-block__description{
+		font-size: 15px;
+	}
+
+	/* projects */
+	.itc-slider{
+		width: 80%;
+		height: 480px;
+	}
+
+	/* contacts */
+	.item-text{
+		font-size: 18px;
+	}
+	.text-item{
+		font-size: 18px;
+	}
+	.contacts__title{
+		font-size: 28px;
+	}
+	.contacts__map{
+		height: 350px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
