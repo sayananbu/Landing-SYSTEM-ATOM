@@ -51,6 +51,7 @@
 	font-size: 28px;
 	line-height: 35px;
 	text-indent: 15px;
+	margin: auto;
 }
 .about-page__description{
 	border-left: 5px solid #E8F2FF;
@@ -183,7 +184,7 @@
 	display: flex;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        justify-content: center;
+	        justify-content: space-evenly;
 	margin: 25px 0;
 	width: 100%;
 }
@@ -198,6 +199,7 @@
 	height: 492px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 15px 5px;
 }
 #photo-1{
 	background-image: url('../img/photos/photo-1.svg');

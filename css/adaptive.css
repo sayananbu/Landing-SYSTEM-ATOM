@@ -82,24 +82,11 @@
 	}
 
 	/* products */
-	.cards-block__card{
-		height: 430px;
-		width: 300px;
-	}
-	.card__image-container{
-		height: 160px;
-	}
-	.card-text-block__title{
-		font-size: 26px;
-	}
-	.card-text-block__description{
-		font-size: 15px;
-	}
 
 	/* projects */
 	.itc-slider{
 		width: 80%;
-		height: 520px;
+		min-height: 500px;
 	}
 
 	/* contacts */
@@ -154,7 +141,7 @@
 	
 	.hr-white-bold{
 		margin: 20px 0 30px 0;
-		height: 5px;
+		height: 6px;
 	}
 	.title-page__options{
 		margin: 20px 0 10px 0;
@@ -223,21 +210,15 @@
 	/* projects */
 	.itc-slider{
 		width: 80%;
-		height: 520px;
+		max-height: 550px;
 	}
 	.item-title{
 		font-size: 50px;
 	}
 
 	/* contacts */
-	.item-text{
-		font-size: 18px;
-	}
 	.text-item{
 		font-size: 18px;
-	}
-	.visitors-info__attention{
-		
 	}
 	.contacts__title{
 		font-size: 25px;
@@ -256,7 +237,7 @@
 	}
 	/* navbar */
 	.nav-section{
-		height: 80px;
+		height: 70px;
 	}
 	#logo{
 		width: 180px;
@@ -278,12 +259,16 @@
 	}
 
 	/* title-page */
+	#title-page{
+		padding:10px 0 0 0;
+		min-height: 630px;
+	}
 	.title-page__description{
-		font-size: 34px;
-		line-height: 38px;
+		font-size: 25px;
+		line-height: 30px;
 	}
 	.title-page__title{
-		font-size: 52px;
+		font-size: 43px;
 		margin: 0;
 	}
 	.hr-white-bold{
@@ -294,16 +279,22 @@
 		margin: 20px 0 10px 0;
 	}
 	.option-item__text{
-		font-size: 34px;
+		font-size: 25px;
 		line-height: 36px;
 	}
 	.row{
-		margin: 0 0 10px  0;
+		margin: 0 0 0 0;
 	}
 
 	/* about-page */
 	.general-text{
-		font-size: 25px;
+		font-size: 23px;
+	}
+	.text-photo{
+		flex-wrap: wrap;
+	}
+	.text-photo p, .text-photo .photo{
+		width: 95%;
 	}
 	.photo{
 		height: 385px;
@@ -333,7 +324,7 @@
 
 	/* certificates */
 	.certificate{
-		width: 350px;
+		width: 400px;
 	}
 
 	/* products */
@@ -353,291 +344,55 @@
 
 	/* projects */
 	.itc-slider{
-		width: 80%;
+		width: 90%;
 		height: 520px;
 	}
 	.slider__item{
 		height: 520px;
 	}
 	.item-title{
-		font-size: 50px;
+		font-size: 45px;
 	}
 
 	/* contacts */
-	.item-text{
-		font-size: 18px;
+	.visible-block{
+		display:none;
+	}
+	.hidden-block{
+		display: block ;
 	}
 	.text-item{
 		font-size: 18px;
 	}
 	.contacts__title{
-		font-size: 28px;
+		font-size: 25px;
 	}
 	.contacts__map{
 		height: 350px;
+	}
+	.contacts__top-block
+	{
+		justify-content: center;
+	}
+	.contacts__bottom-block{
+		justify-content: center;
+	}
+	.visitors-info__attention{
+		display: flex;
+		font-size: 16px;
+		width: 350px;
+	}
+	.attention__text{
+		font-size: 20px;
 	}
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-	.container{
-		max-width: 95%;
-	}
-	/* navbar */
-	.nav-section{
-		height: 80px;
-	}
-	#logo{
-		width: 180px;
-	}
-	#language{
-		width: 50px;
-		height: 50px;
-		font-size: 20px;
-	}
-	.custom-navbar{
-		max-width: 850px;
-		height: 50px;
-	}
-	.navbar-block{
-		width: 180px;
-	}
-	.navbar-block__label{
-		font-size: 23px;
-	}
-
-	/* title-page */
-	#title-page{
-	}
-	.title-page__description{
-		font-size: 38px;
-		line-height: 50px;
-	}
-	.title-page__title{
-		font-size: 60px;
-		margin: 0;
-	}
-	.hr-white-bold{
-		margin: 20px 0 30px 0;
-		height: 5px;
-	}
-	.title-page__options{
-		margin: 20px 0 10px 0;
-	}
-	.option-item__text{
-		font-size: 42px;
-		line-height: 36px;
-	}
-	.row{
-		margin: 0 0 10px  0;
-	}
-
-	/* about-page */
-	.general-text{
-		font-size: 28px;
-	}
-	.photo{
-		height: 385px;
-		width: 520px;
-	}
-
-	/* license-page */
 	
-	.link-text__full-name{
-		font-size: 28px;
-	}
-	.link-text__iso-name{
-		font-size: 30px;
-	}
-	.links-block{
-		width: 80%;
-	}
-	.license-image{
-		width: 280px;
-	}
-	.images-block{
-		min-width: 480px;
-	}
-	.images-block__img-3{
-		bottom: 140px;
-		
-	}
-
-	/* certificates */
-	.certificate{
-		width: 500px;
-	}
-	.quallity-managment__description{
-		font-size: 28px;
-	}
-
-	/* products */
-	.cards-block__card{
-		height: 530px;
-		width: 400px;
-	}
-	.card__image-container{
-		height: 160px;
-	}
-	.card-text-block__title{
-		font-size: 32px;
-	}
-	.card-text-block__description{
-		font-size: 20px;
-	}
-
-	/* projects */
-	.itc-slider{
-		width: 80%;
-		height: 520px;
-	}
-	.slider__item{
-		height: 520px;
-	}
-	.item-title{
-		font-size: 50px;
-	}
-
-	/* contacts */
-	.item-text{
-		font-size: 18px;
-	}
-	.text-item{
-		font-size: 18px;
-	}
-	.contacts__title{
-		font-size: 28px;
-	}
-	.contacts__map{
-		height: 350px;
-	}
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-	.container{
-		max-width: 95%;
-	}
-	/* navbar */
-	#logo{
-		width: 180px;
-	}
-	#language{
-		width: 45px;
-		height: 45px;
-		font-size: 20px;
-	}
-	.custom-navbar{
-		max-width: 850px;
-		height: 35px;
-	}
-	.navbar-block{
-		width: 180px;
-	}
-	.navbar-block__label{
-		font-size: 20px;
-	}
-
-	/* title-page */
-	#title-page{
-		//height:calc(200vh - 50px);
-	}
-	.title-page__description{
-		font-size: 34px;
-		line-height: 38px;
-	}
-	.title-page__title{
-		font-size: 52px;
-		margin: 0;
-	}
-	.hr-white-bold{
-		margin: 20px 0 30px 0;
-		height: 5px;
-	}
-	.title-page__options{
-		margin: 20px 0 10px 0;
-	}
-	.option-item__text{
-		font-size: 34px;
-		line-height: 36px;
-	}
-	.row{
-		margin: 0 0 10px  0;
-	}
-
-	/* about-page */
-	.general-text{
-		font-size: 25px;
-	}
-	.photo{
-		height: 385px;
-	}
-
-	/* license-page */
 	
-	.link-text__full-name{
-		font-size: 23px;
-	}
-	.link-text__iso-name{
-		font-size: 25px;
-	}
-	.links-block{
-		width: 50%;
-	}
-	.license-image{
-		width: 280px;
-	}
-	.images-block{
-		min-width: 480px;
-	}
-	.images-block__img-3{
-		bottom: 140px;
-		
-	}
-
-	/* certificates */
-	.certificate{
-		width: 350px;
-	}
-
-	/* products */
-	.cards-block__card{
-		height: 430px;
-		width: 300px;
-	}
-	.card__image-container{
-		height: 160px;
-	}
-	.card-text-block__title{
-		font-size: 26px;
-	}
-	.card-text-block__description{
-		font-size: 15px;
-	}
-
-	/* projects */
-	.itc-slider{
-		width: 80%;
-		height: 520px;
-	}
-	.slider__item{
-		height: 520px;
-	}
-	.item-title{
-		font-size: 50px;
-	}
-
-	/* contacts */
-	.item-text{
-		font-size: 18px;
-	}
-	.text-item{
-		font-size: 18px;
-	}
-	.contacts__title{
-		font-size: 28px;
-	}
-	.contacts__map{
-		height: 350px;
-	}
 }
 
 @media (max-width: 320px) {

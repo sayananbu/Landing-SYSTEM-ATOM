@@ -17,7 +17,8 @@
 .slider__item{
 	position: relative;
 	width: 90%;
-	height: 600px;
+	min-height: 500px;
+	height: 580px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

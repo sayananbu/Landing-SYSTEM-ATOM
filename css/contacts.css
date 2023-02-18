@@ -1,123 +1,116 @@
-
-#contacts-page{
+#contacts-page {
+  width: 100%;
+}
+.contacts__top-block,
+.contacts__bottom-block {
 	width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.contacts__top-block, .contacts__bottom-block{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: start;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+.top-block__requisites {
+  margin: 0 0 20px 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
-.top-block__requisites{
-	margin: 0 0 20px 0;
-	-webkit-box-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
+.requisites__title {
+  display: block;
+  margin: 0 0 20px 0;
 }
-.requisites__title{
-	display: block;
-	margin: 0 0 20px 0;
+.contacts__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
 }
-.contacts__title{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 32px;
-	line-height: 38px;
+.requisites__info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  text-transform: uppercase;
 }
-.requisites__info{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: left;
-	text-transform: uppercase;
+.requisites__info td {
+  padding: 0 20px 20px 0;
 }
-.requisites__info td{
-	padding: 0 20px 20px 0;
+.requisites__info td:last-child {
+  padding: 0 0 20px 0;
 }
-.requisites__info td:last-child{
-	padding: 0 0 20px 0;
+.contacts__title {
+  display: block;
+  margin: 0 0 20px 0;
 }
-.contacts__title{
-	display: block;
-	margin: 0 0 20px 0;
+.item-text {
+  font-size: 24px;
 }
-.item-text{
-	font-size: 24px;
+.item-text span {
+  display: block;
 }
-.item-text span{
-	display: block;
+.contact-info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-.contact-info__item{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+.item-icon {
+  margin: 0 15px 0 0;
 }
-.item-icon{
-	margin: 0 15px 0 0;
+.contact-info__phone {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
-.contact-info__phone{
-	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: start;
+.text-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 15px 0;
 }
-.text-item{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 28px;
-	margin: 0 0 15px 0;
+.text-item span {
+  display: block;
 }
-.text-item span{
-	display: block;
+.block-item {
+  margin: 0 40px 20px 0;
 }
-.contacts__bottom-block{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: start;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+.block-item:last-child {
+  margin: 0;
 }
-.block-item{
-	margin: 0 40px 20px 0;
+.attention__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  font-size: 25px;
 }
-.block-item:last-child{
-	margin: 0;
+.visitors-info__attention {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 3px red;
 }
-.attention__text{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	line-height: 35px;
-	font-size: 25px;
+.top-block__contact-info{
+	margin: 0 20px 0 0;
 }
-.visitors-info__attention{
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	max-width: 500px;
-	min-width: 400px;
-	font-size: 24px;
-	border: 1px solid red;
-	border-radius: 5px;
-	padding: 10px;
-	box-shadow: 0px 0px 15px 3px red;
+.contacts__map {
+  height: 500px;
 }
-.contacts__map{
-	height:500px;
+.visible-block{
+	display:flex;
+}
+.hidden-block{
+	display: none ;
 }
