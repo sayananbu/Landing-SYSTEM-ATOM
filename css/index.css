@@ -66,7 +66,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-width: 1200px;
+  min-width: calc(100vw - 50px);
 }
 .container {
   background-color: transparent;

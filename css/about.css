@@ -56,6 +56,7 @@
 	border-left: 5px solid #E8F2FF;
 	margin: 30px 0 30px 20px;
 	border-radius: 3px;
+	font-weight: 400;
 }
 .white{
 	color: #fff;
@@ -186,6 +187,11 @@
 	margin: 25px 0;
 	width: 100%;
 }
+
+.text-photo p{
+	width: 50%;
+}
+
 .photo{
 	border-radius: 5px;
 	width: 620px;

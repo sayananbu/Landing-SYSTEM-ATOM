@@ -65,7 +65,7 @@
 	width: 100%;
 	background-color: transparent;
 	border:none;
-	padding: 0 20px;
+	//padding: 0 20px;
 	color: #fff;
 	line-height: 1;
 	text-decoration: none;
@@ -91,11 +91,11 @@
 	height: 100px;
 	top: 50;
 	left: 0;
-	width: 20px;
+	width: 15px;
 	background-color: #E0EEFF;
 	-webkit-transform: rotate(20deg) translateX(-10px);
 	    -ms-transform: rotate(20deg) translateX(-10px);
-	        transform: rotate(20deg) translateX(-10px);
+	        transform: rotate(13deg) translateX(-6px);
 }
 .active:after {
 	content: "";
@@ -103,11 +103,11 @@
 	height: 100px;
 	top: 50;
 	right: 0;
-	width: 20px;
+	width: 15px;
 	background-color: #E0EEFF;
 	-webkit-transform: rotate(20deg) translateX(10px);
 	    -ms-transform: rotate(20deg) translateX(10px);
-	        transform: rotate(20deg) translateX(10px);
+	        transform: rotate(13deg) translateX(6px);
 }
 .active a{
 	color: #000;
