@@ -136,7 +136,7 @@
 .images-block{
 	position: relative;
 	display: block;
-	min-width: 520px;
+	width: 520px;
 	height: 810px;
 }
 .license-image{

@@ -26,8 +26,6 @@
 	line-height: 47px;
 	text-align: center;
 	text-shadow: 0px 0px 20px rgba(0,0,0, .4);
-	-webkit-backdrop-filter: blur(10px);
-	        backdrop-filter: blur(10px);
 	color: rgb(174, 210, 247);
 }
 .title-page__description{
@@ -38,8 +36,6 @@
 	font-weight: 500;
 	text-shadow: 0px 0px 20px #000000;
 	line-height: 50px;
-	-webkit-backdrop-filter: blur(2px);
-	        backdrop-filter: blur(2px);
 }
 .hr-white-bold{
 	width: 240px;
@@ -51,20 +47,62 @@
 .title-page__options{
 	width: 90%;
 	margin: 35px 0 20px 0;
+	display: flex;
+	flex-direction: column;
 }
 .option-item{
-	
-	
+	position: relative;
+	display: flex;
+	z-index:0;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #aaa;
+	border-radius: 50px;
+	width: fit-content;
+	padding: 5px 15px;
+	margin: 5px;
+	background-color: rgba(60,60,60, .3);
+	backdrop-filter:blur(3px);
+}
+.option-item__icon-container, .option-item__icon{
+	position: relative;
+	z-index: 100;
+	width: 50px;
+	height: 50px;
+}
+ .option-item__icon-container{
+
+	margin: 0 15px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	border-radius: 50%;
+	fill: #32466A;
+}
+.overlay{
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: 50;
+	left: 50;
+	border-radius: 50%;
+	background-color: rgba(224, 238, 255,1);
+	box-shadow: -10px 0 15px 38px rgba(224, 238, 255,1);
+}
+.row{
+	justify-content: center;
 }
 .option-item__text{
+	position: relative;
+	display: flex;
+	width: fit-content;
+	z-index: 1000;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 42px;
 	text-shadow: 0px 0px 25px #000000;
-}
-.option-item__icon{
-	width: 50px;
-	fill: white;
 }

@@ -79,11 +79,22 @@ body {
   align-items: center;
   flex-direction: column;
   min-height: 100%;
-  //background-color: red;
 }
 #main {
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.visible-block{
+	display:flex;
+}
+.hidden-block{
+	display: none ;
+}
+.hidden{
+	display: none;
+}
+.visible{
+	display: flex;
 }

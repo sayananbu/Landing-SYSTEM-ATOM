@@ -1,6 +1,6 @@
 
 const autoprefixer = require('gulp-autoprefixer');
-const postcss = require('gulp-postcss')
+const minify = require('gulp-css-minify')
 const gulp = require('gulp');
 
 gulp.task('prefixer',()=>{
@@ -8,5 +8,6 @@ gulp.task('prefixer',()=>{
 		.pipe(autoprefixer({
 			overrideBrowserslist:['last 3 versions']
 		}))
-		.pipe(gulp.dest('css'))
+		.pipe(minify())
+		.pipe(gulp.dest('prod'))
 })
