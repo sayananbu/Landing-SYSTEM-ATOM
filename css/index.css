@@ -87,10 +87,10 @@ body {
   width: 100%;
 }
 .visible-block{
-	display:flex;
+	display:block;
 }
 .hidden-block{
-	display: none ;
+	display: block ;
 }
 .hidden{
 	display: none;

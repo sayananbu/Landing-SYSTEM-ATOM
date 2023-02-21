@@ -21,7 +21,7 @@
 
 	/* title-page */
 	#title-page{
-		min-height: 600px;
+		min-height: 850px;
 	}
 	.title-page__description{
 		font-size: 34px;
@@ -391,10 +391,10 @@
 
 	/* contacts */
 	.visible-block{
-		display:none;
+		display:block;
 	}
 	.hidden-block{
-		display: block ;
+		display: block;
 	}
 	.text-item{
 		font-size: 18px;

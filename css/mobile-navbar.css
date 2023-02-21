@@ -143,17 +143,18 @@
 	opacity: 0;
 }
 .menu-overlay{
-	display: none;
+	display: block;
 	position: absolute;
 	z-index: 100;
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100vh;
-	transition: .2s;
+	height: 0;
+	cursor: pointer;
+	background-color: red;
 }
 .menu-overlay__opened{
-	display: block;
+	height: 100vh;
 }
 .navbar__opened{
 	padding: 60px 0 15px 0;

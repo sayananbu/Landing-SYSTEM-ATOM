@@ -6,7 +6,7 @@ const navbar = document.querySelector('.nav-section-mobile__navbar')
 const overlay = document.querySelector('.menu-overlay')
 
 burger.addEventListener('click',openMenu)
-
+overlay.addEventListener('click',openMenu)
 function openMenu(){
 	if(burger.classList.contains('menu__opened')){
 		burger.classList.remove('menu__opened')
