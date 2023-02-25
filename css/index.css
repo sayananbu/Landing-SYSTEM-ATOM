@@ -86,15 +86,3 @@ body {
   flex-direction: column;
   width: 100%;
 }
-.visible-block{
-	display:block;
-}
-.hidden-block{
-	display: block ;
-}
-.hidden{
-	display: none;
-}
-.visible{
-	display: flex;
-}

@@ -1,4 +1,4 @@
-#logo{
+.nav-section__logo{
 	position: relative;
 	width: 200px;
 	height: 56px;
@@ -8,7 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#language{
+.nav-section__lang{
 	border: 0;
 	background-color: #32466A;
 	position: relative;

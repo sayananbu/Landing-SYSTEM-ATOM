@@ -74,7 +74,7 @@
 	height: 100px;
 }
 .itc-slider__btn_prev::before{
-	background-image: url('../img/photos/slider/left-arrow.svg');
+	background-image: url('../img/photos/slider/left-arrow.svg'); 
 }
 .itc-slider__btn_next::before{
 	background-image: url('../img/photos/slider/right-arrow.svg');

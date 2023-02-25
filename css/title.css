@@ -10,7 +10,7 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
-	height:calc(100vh - 50px);
+	height:100vh;
 	color: #fff;
 }
 .title-page__top-block{
