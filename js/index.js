@@ -1,5 +1,13 @@
+//import scrollSpy from '@sidsbrmnn/scrollspy'
 
-$("#navbar-scrollspy").scrollspy({ offset: -50 });
+//const scrollSpy = require('@sidsbrmnn/scrollspy')
+//$("#navbar-scrollspy").scrollspy({ offset: -50 });
+
+// export default scrollSpy('#navbar-scrollspy', {
+//     sectionSelector: 'section',  // Query selector to your sections
+//     targetSelector: '.navbar-block', // Query selector to your elements that will be added `active` class
+//     offset: 100               // Menu item will active before scroll to a matched section 100px
+// })
 
 const burger = document.querySelector('.nav-section__burger-menu')
 const navbar = document.querySelector('.nav-section__navbar')
