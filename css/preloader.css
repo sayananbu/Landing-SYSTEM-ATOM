@@ -19,9 +19,7 @@
 	width: 150px;
 	height: 150px;
 	z-index: 1002;
-	-webkit-animation: spin 4s linear infinite;
-	   -moz-animation: spin 4s linear infinite;
-	        animation: spin 4s linear infinite;
+	animation: spin 4s linear infinite;
   }
   .preloader__image-svg{
 	width: 100%;
@@ -30,9 +28,6 @@
   }
   
   .loaded_hiding .preloader {
-	-webkit-transition: 0.3s opacity;
-	-o-transition: 0.3s opacity;
-	-moz-transition: 0.3s opacity;
 	transition: 0.3s opacity;
 	opacity: 0;
   }

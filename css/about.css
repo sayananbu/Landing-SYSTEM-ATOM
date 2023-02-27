@@ -10,8 +10,7 @@
 }
 .spinning{
 	-webkit-animation: spin 10s linear infinite;
-	        -moz-animation: spin 10s linear infinite;
-	     animation: spin 10s linear infinite;
+	        animation: spin 10s linear infinite;
 }
 @-webkit-keyframes spin{
 	from{
@@ -23,28 +22,14 @@
 		        transform: rotate(360deg);
 	}
 }
-@-moz-keyframes spin{
-	from{
-		-webkit-transform: rotate(0);
-		        -moz-transform: rotate(0);
-		     transform: rotate(0);
-	}
-	to{
-		-webkit-transform: rotate(360deg);
-		        -moz-transform: rotate(360deg);
-		     transform: rotate(360deg);
-	}
-}
 @keyframes spin{
 	from{
 		-webkit-transform: rotate(0);
-		        -moz-transform: rotate(0);
-		     transform: rotate(0);
+		        transform: rotate(0);
 	}
 	to{
 		-webkit-transform: rotate(360deg);
-		        -moz-transform: rotate(360deg);
-		     transform: rotate(360deg);
+		        transform: rotate(360deg);
 	}
 }
 .block-title{
@@ -86,20 +71,13 @@
 	background-color: #32466A;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -moz-box;
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
-	        -webkit-flex-direction: column;
-	           -moz-box-orient: vertical;
-	           -moz-box-direction: normal;
 	        flex-direction: column;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        -webkit-align-items: center;
-	           -moz-box-align: center;
 	        align-items: center;
 	width: 100%;
 }
@@ -107,13 +85,9 @@
 	position: absolute;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -moz-box;
 	display: flex;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        -webkit-justify-content: center;
-	           -moz-box-pack: center;
 	        justify-content: center;
 	width: 100%;
 	height: 50px;
@@ -137,26 +111,20 @@
 .block-blue__top-arrow_up .left-bar{
 	-webkit-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
-	        -moz-transform: rotate(-3deg);
-	     transform: rotate(-3deg);
+	        transform: rotate(-3deg);
 }
 .block-blue__top-arrow_up .right-bar{
 	-webkit-transform: rotate(3deg);
 	    -ms-transform: rotate(3deg);
-	        -moz-transform: rotate(3deg);
-	     transform: rotate(3deg);
+	        transform: rotate(3deg);
 }
 .block-blue__bottom-arrow_down{
 	position: absolute;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -moz-box;
 	display: flex;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        -webkit-justify-content: center;
-	           -moz-box-pack: center;
 	        justify-content: center;
 	width: 100%;
 	height: 50px;
@@ -167,27 +135,21 @@
 .block-blue__bottom-arrow_down .left-bar{
 	-webkit-transform: rotate(3deg);
 	    -ms-transform: rotate(3deg);
-	        -moz-transform: rotate(3deg);
-	     transform: rotate(3deg);
+	        transform: rotate(3deg);
 }
 .block-blue__bottom-arrow_down .right-bar{
 	-webkit-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
-	        -moz-transform: rotate(-3deg);
-	     transform: rotate(-3deg);
+	        transform: rotate(-3deg);
 }
 .block-blue__top-arrow_down{
 	position: absolute;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -moz-box;
 	display: flex;
 	overflow: hidden;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        -webkit-justify-content: center;
-	           -moz-box-pack: center;
 	        justify-content: center;
 	width: 100%;
 	height: 85px;
@@ -201,14 +163,12 @@
 .block-blue__top-arrow_down .left-bar{
 	-webkit-transform: rotate(3deg);
 	    -ms-transform: rotate(3deg);
-	        -moz-transform: rotate(3deg);
-	     transform: rotate(3deg);
+	        transform: rotate(3deg);
 }
 .block-blue__top-arrow_down .right-bar{
 	-webkit-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
-	        -moz-transform: rotate(-3deg);
-	     transform: rotate(-3deg);
+	        transform: rotate(-3deg);
 }
 .arrow-bar_blue{
 	position: absolute;
@@ -220,13 +180,9 @@
 .text-photo{
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -moz-box;
 	display: flex;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        -webkit-justify-content: space-evenly;
-	           -moz-box-pack: space-evenly;
 	        justify-content: space-evenly;
 	margin: 25px 0;
 	width: 100%;
