@@ -2,6 +2,8 @@
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-box;
 	display: flex;
 	width: 100%;
 }
@@ -46,6 +48,7 @@
 	fill: black;
 	-webkit-transition: .2s;
 	-o-transition: .2s;
+	-moz-transition: .2s;
 	transition: .2s;
 }
 .link-text__full-name{
@@ -67,10 +70,15 @@
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-box;
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
+	        -webkit-flex-direction: column;
+	           -moz-box-orient: vertical;
+	           -moz-box-direction: normal;
 	        flex-direction: column;
 }
 .links-block__link-container a{
@@ -79,13 +87,18 @@
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-box;
 	display: flex;
 	margin: 0 0 40px 0;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
+	        -webkit-align-items: center;
+	           -moz-box-align: center;
 	        align-items: center;
 	-webkit-transition: .2s;
 	-o-transition: .2s;
+	-moz-transition: .2s;
 	transition: .2s;
 }
 .links-block__link-container a:hover{
@@ -97,7 +110,8 @@
 .links-block__link-container a:hover .icon-container{
 	fill: #37457f;
 	-webkit-animation: tremble .3s linear;
-	        animation: tremble .3s linear;
+	        -moz-animation: tremble .3s linear;
+	     animation: tremble .3s linear;
 }
 .links-block__link-container a:focus .icon-container{
 	fill: #573780;
@@ -116,18 +130,38 @@
 		        transform: rotate(15deg);
 	}
 }
-@keyframes tremble {
+@-moz-keyframes tremble {
 	25%{
 		-webkit-transform: rotate(15deg);
-		        transform: rotate(15deg);
+		        -moz-transform: rotate(15deg);
+		     transform: rotate(15deg);
 	}
 	50%{
 		-webkit-transform: rotate(-30deg);
-		        transform: rotate(-30deg);
+		        -moz-transform: rotate(-30deg);
+		     transform: rotate(-30deg);
 	}
 	75%{
 		-webkit-transform: rotate(15deg);
-		        transform: rotate(15deg);
+		        -moz-transform: rotate(15deg);
+		     transform: rotate(15deg);
+	}
+}
+@keyframes tremble {
+	25%{
+		-webkit-transform: rotate(15deg);
+		        -moz-transform: rotate(15deg);
+		     transform: rotate(15deg);
+	}
+	50%{
+		-webkit-transform: rotate(-30deg);
+		        -moz-transform: rotate(-30deg);
+		     transform: rotate(-30deg);
+	}
+	75%{
+		-webkit-transform: rotate(15deg);
+		        -moz-transform: rotate(15deg);
+		     transform: rotate(15deg);
 	}
 }
 .links-block__link-container:last-child{
@@ -147,15 +181,22 @@
 .lecense-page__links-and-img{
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-box;
 	display: flex;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
+	        -webkit-align-items: center;
+	           -moz-box-align: center;
 	        align-items: center;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	           -moz-box-pack: center;
 	        justify-content: center;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	width: 100%;
 }
 /* подогнать по позиции */

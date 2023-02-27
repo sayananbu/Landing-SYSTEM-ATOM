@@ -1,0 +1,30 @@
+.nav-section__logo{
+	position: relative;
+	margin: 0 25px 5px 0;
+	width: 200px;
+	height: 56px;
+	background: url(../img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: .2s;
+}
+.nav-section__lang{
+	border: 0;
+	background-color: #32466A;
+	position: relative;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-family: 'Comfortaa';
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 0 0 25px;
+	line-height: .5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	box-shadow: 0 0 5px #888;
+}
