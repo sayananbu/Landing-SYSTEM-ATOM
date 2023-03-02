@@ -3,7 +3,7 @@
 #title-page{
 	padding-top: 30px;
 	position: relative;
-	background-image: url(../img/РостовскаяАЭС.svg);
+	background-image: url(../img/РостовскаяАЭС.png);
 	background-repeat: no-repeat;
 	background-position: 50% 80%;
 	background-size:cover;
@@ -79,7 +79,6 @@
 	align-items: center;
 	justify-content: center;
 	padding: 8px;
-	border-radius: 50%;
 	fill: #32466A;
 }
 .overlay{

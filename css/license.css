@@ -48,6 +48,10 @@
 	-o-transition: .2s;
 	transition: .2s;
 }
+.link-container__link-icon{
+	width: 60px;
+	height: 60px;
+}
 .link-text__full-name{
 	font-family: 'Roboto';
 	font-style: italic;

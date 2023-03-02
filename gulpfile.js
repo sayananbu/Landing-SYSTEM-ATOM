@@ -1,8 +1,4 @@
 
-// const autoprefixer = require('gulp-autoprefixer');
-// const gulp = require('gulp');
-// const minify = require('gulp-css-minify');
-// const imagemin = require('gulp-imagemin');
 
 import gulp from 'gulp'
 import autoprefixer from 'gulp-autoprefixer'
@@ -20,13 +16,8 @@ gulp.task('prefixer',()=>{
 })
 
 gulp.task('minimages', ()=>{
-	return gulp.src('all_photo_png/*.png')
+	return gulp.src('all_png/*.png')
 	.pipe(imagemin())
-	.pipe(gulp.dest('all_photo_png_min'))
+	.pipe(gulp.dest('all_png_min'))
 })
 
-gulp.task('minsvg', ()=>{
-	return gulp.src('all_photo_svg/*.svg')
-	.pipe(minsvg())
-	.pipe(gulp.dest('all_photo_svg_min'))
-})
