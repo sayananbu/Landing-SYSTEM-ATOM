@@ -71,7 +71,8 @@
   text-decoration: none;
   font-family: "Comfortaa";
   font-size: 24px;
-  transition: .2s;
+  transition: .2s transform;
+  transition: .2s color;
 }
 
 .navbar-block:after {
@@ -87,7 +88,7 @@
   background-color: #e0eeff;
   transition: .3s;
   border-radius: 8px 8px 0 0;
-  transform: translateY(100%);
+  transform: translateY(120%);
 }
 .navbar-block a:hover {
   color: #fff;

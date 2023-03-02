@@ -3,10 +3,16 @@ const burger = document.querySelector('.nav-section__burger-menu')
 const navbar = document.querySelector('.nav-section__navbar')
 const overlay = document.querySelector('.menu-overlay')
 const logo = document.querySelector('.nav-section__logo')
+const links = document.querySelectorAll('.navbar-block__label')
 
 burger.addEventListener('click',openMenu)
 navbar.addEventListener('click',e=>{e.stopPropagation()})
 overlay.addEventListener('click',openMenu)
+
+links.forEach(link => {
+	link.addEventListener('click',openMenu)
+})
+
 
 function openMenu(){
 	if(burger.classList.contains('menu__opened')){
@@ -36,4 +42,5 @@ $(document).ready(function () {
 	        }, 100);
 		e.preventDefault();
 		});
+
 });

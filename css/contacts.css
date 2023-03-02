@@ -107,4 +107,10 @@
 .contacts__map {
   height: 500px;
 }
+.visible-contacts-block{
+	display: flex;
+}
+.hidden-contacts-block{
+	display: none;
+}
 
