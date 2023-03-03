@@ -342,6 +342,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	body{
+		background-color: #32466a;
+	}
+	#main{
+		background-color: #fff;
+	}
 	.container{
 		max-width: 98%;
 	}
@@ -506,7 +512,7 @@
 		margin: 0;
 	}
 	.general-text{
-		font-size: 25px;
+		font-size: 21px;
 	}
 	.about-page__description{
 		margin: 30px 10px 30px 15px;
@@ -543,10 +549,6 @@
 	.images-block__img-3{
 		bottom: 140px;
 		
-	}
-	.links-block__link-container a:hover .icon-container{
-		fill: #37457f;
-		animation: none;
 	}
 
 	/* certificates */
@@ -632,6 +634,12 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+	body{
+		background-color: #32466a;
+	}
+	#main{
+		background-color: #fff;
+	}
 	.container{
 		max-width: 98%;
 	}
@@ -858,10 +866,6 @@
 		height: 600px;
 		margin: 0 0 20px 0;
 	}
-	.links-block__link-container a:hover .icon-container{
-		fill: #37457f;
-		animation: none;
-	}
 
 	/* certificates */
 	.certificate{
@@ -918,22 +922,28 @@
 	.top-block__requisites{
 		width: 90%;
 	}
+	.top-block__contact-info{
+		margin: 0 0 40px 0;
+		max-width: 330px;
+	}
 	.block-item{
-		min-width: 200px;
-		margin-right: 20px;
+		min-width: 280px;
+		margin: 0 5px 20px 5px;
 	}
 	.contacts__bottom-block{
 		flex-wrap:wrap;
 		justify-content: space-evenly;
 	}
 	.visitors-info__attention{
-		display: flex;
+		display: table;
 		font-size: 16px;
-		max-width: 350px;
+		max-width: 330px;
 		margin:5px 0 5px 0;
 	}
 	.attention__text{
 		font-size: 20px;
+		display: table-cell;
+		vertical-align: middle;
 	}
 	.hidden-block{
 		display: block;
@@ -950,6 +960,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
+	body{
+		background-color: #32466a;
+	}
+	#main{
+		background-color: #fff;
+	}
 	.container{
 		max-width: 98%;
 	}
@@ -1119,9 +1135,9 @@
 		margin: 0;
 	}
 	.general-text{
-		font-size: 14px;
-		line-height: 20px;
-		font-weight: 500;
+		font-size: 16px;
+		line-height: 23px;
+		font-weight: 400;
 	}
 	.text-photo  .white{
 		font-weight: 300;
@@ -1163,6 +1179,9 @@
 		width: 60px;
 		height: 60px;
 	}
+	#figure-2{
+		margin: 0;
+	}
 
 	/* license-page */
 	
@@ -1194,10 +1213,6 @@
 	.images-block__img-1{
 		top: 0;
 		left: 50px;
-	}
-	.links-block__link-container a:hover .icon-container{
-		fill: #37457f;
-		animation: none;
 	}
 
 	/* certificates */
@@ -1246,6 +1261,7 @@
 	
 	.text-item{
 		font-size: 15px;
+		margin: 0 0 10px 0;
 	}
 	.contacts__title{
 		font-size: 20px;
@@ -1302,6 +1318,12 @@
 }
 
 @media (max-width: 320px){
+	body{
+		background-color: #32466a;
+	}
+	#main{
+		background-color: #fff;
+	}
 	.container{
 		max-width: 98%;
 	}
@@ -1423,7 +1445,7 @@
 	/* title-page */
 	#title-page{
 		padding:10px 0 0 0;
-		min-height: 620px;
+		min-height: 585px;
 		height:calc(100vh - 200px);
 	}
 	.title-page__description{
@@ -1438,31 +1460,30 @@
 	.hr-white-bold{
 		margin: 5px 0 20px 0;
 		height: 5px;
+		width: 150px;
 	}
 	.title-page__options{
 		margin: 20px 0 10px 0;
 	}
 	.option-item__icon-container, .option-item__icon{
-		width: 30px;
-		height: 30px;
+		width: 35px;
+		height: 35px;
 	}
 	.option-item__icon-container{
 		margin: 0 5px 0 0;
 	}
 	.option-item{
-		margin: 3px;
-		padding: 2px 5px;
+		margin: 1px;
+		padding: 3px 7px 3px 0;
+		max-height: 30px;
 	}
 	.option-item__text{
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 15px;
 		text-align: center;
 	}
 	.row{
 		margin: 0 0 0 0;
-	}
-	.overlay{
-		box-shadow: -10px 0 15px 25px rgba(224, 238, 255,1);
 	}
 
 	/* about-page */
@@ -1470,9 +1491,8 @@
 		margin: 0;
 	}
 	.general-text{
-		font-size: 16px;
+		font-size: 15px;
 		line-height: 25px;
-		padding-left:10px;
 	}
 	.title{
 		font-size: 28px;
@@ -1491,7 +1511,7 @@
 		width: 120px;
 	}
 	.about-page__description p{
-		margin: 0 0 0 5px;
+		margin: 0 5px 0 10px;
 	}
 	.about-page__description{
 		margin-left: 10px;
@@ -1529,7 +1549,7 @@
 		margin: 0 5px 0 0;
 	}
 	.images-block{
-		width: 300px;
+		width: 250px;
 		height: 480px;
 		margin: 5px 0 40px 0;
 	}
@@ -1541,7 +1561,7 @@
 	}
 	.images-block__img-1{
 		top: 0;
-		left: 50px;
+		left: 25px;
 	}
 	.links-block__link-container a:hover .icon-container{
 		fill: #37457f;
@@ -1553,14 +1573,15 @@
 		width: 250px;
 	}
 	.quallity-managment__description{
-		padding: 0 0 0 15px;
-		font-size: 20px;
+		padding: 0 10px 0 15px;
+		font-size: 14px;
+		line-height: 23px;
 	}
 
 	/* products */
 	.cards-block__card{
-		height: 430px;
-		width: 99%;
+		height: 400px;
+		width: 95%;
 	}
 	.card__image-container{
 		height: 160px;
@@ -1569,7 +1590,8 @@
 		font-size: 23px;
 	}
 	.card-text-block__description{
-		font-size: 12px;
+		font-size: 14px;
+		line-height: 17px;
 	}
 
 	/* projects */
@@ -1594,6 +1616,10 @@
 	
 	.text-item{
 		font-size: 15px;
+		margin: 0 0 5px 0;
+	}
+	.item-icon{
+
 	}
 	.contacts__title{
 		font-size: 20px;
@@ -1612,10 +1638,18 @@
 	}
 	.top-block__requisites{
 		width: 98%;
+		margin: 0 0 15px 0;
+	}
+	.top-block__contact-info{
+		margin: 10px auto 20px auto;
+		max-width: 280px;
+	}
+	.bottom-block__visitors-info{
+		margin: 0 0 20px 0;
 	}
 	.requisites__info{
 		font-size: 10px;
-		margin: 10px auto;
+		margin: 5px auto;
 	}
 	.requisites__info td {
 		padding: 0 10px 5px 8px;
@@ -1637,5 +1671,11 @@
 	}
 	.visible-block{
 		display: none;
+	}
+	.visible-contacts-block{
+		display: none;
+	}
+	.hidden-contacts-block{
+		display: block;
 	}
 }

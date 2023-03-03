@@ -10,9 +10,11 @@ navbar.addEventListener('click',e=>{e.stopPropagation()})
 overlay.addEventListener('click',openMenu)
 
 links.forEach(link => {
-	link.addEventListener('click',openMenu)
+	link.addEventListener('click',()=>{
+		if(navbar.classList.contains('navbar__opened'))
+			openMenu()
+	})
 })
-
 
 function openMenu(){
 	if(burger.classList.contains('menu__opened')){
@@ -39,7 +41,7 @@ $(document).ready(function () {
         var anchor = $(this);
 			$('html, body').stop().animate({
 	            scrollTop: $(anchor.attr('href')).offset().top - 55
-	        }, 100);
+	        }, 150);
 		e.preventDefault();
 		});
 
