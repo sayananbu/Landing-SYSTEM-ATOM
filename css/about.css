@@ -52,12 +52,20 @@
 	line-height: 35px;
 	text-indent: 15px;
 	margin: auto;
+	
+}
+.text-photo p{
+	width: 50%;
+}
+.block-blue .general-text{
+	text-align:center;
 }
 .about-page__description{
 	border-left: 5px solid #E8F2FF;
 	margin: 30px 10px 30px 20px;
 	border-radius: 3px;
 	font-weight: 400;
+	
 }
 .white{
 	color: #fff;
@@ -188,9 +196,6 @@
 	width: 100%;
 }
 
-.text-photo p{
-	width: 50%;
-}
 
 .photo{
 	border-radius: 5px;

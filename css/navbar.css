@@ -1,5 +1,5 @@
 .nav-section {
-  position: sticky;
+  position: fixed;
   z-index: 1000;
   top: 0;
   display: -webkit-box;
@@ -52,7 +52,7 @@
   width: 200px;
   flex-direction: column;
   justify-content: center;
-  transition: .2s;
+  transition: .2s transform;
 }
 .navbar-block__label {
   display: flex;
@@ -72,10 +72,9 @@
   font-family: "Comfortaa";
   font-size: 24px;
   transition: .2s transform;
-  transition: .2s color;
 }
 
-.navbar-block:after {
+.navbar-block__label:after {
   content: "";
   position: absolute;
   z-index: 10;
@@ -93,13 +92,13 @@
 .navbar-block a:hover {
   color: #fff;
 }
-.nav-section__navbar:hover a:not(:hover){
+/* .nav-section__navbar:hover a:not(:hover){
 	color: rgb(230,230,230);
-}
+} */
 .nav-section__navbar:hover::before{
 	transform: translateY(0);
 }
-.navbar-block:hover::after {
+.navbar-block__label:hover::after {
 	transform: translateY(0);
 }
 .nav-section__burger-menu {
@@ -222,3 +221,7 @@
 .white-logo{
 	filter:  brightness(0%) invert(100%);
 }
+
+
+
+

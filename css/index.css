@@ -54,6 +54,7 @@
 }
 html{
 	width: 100vw;
+	scroll-behavior: smooth;
 }
 body {
   display: -webkit-box;
@@ -70,6 +71,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   min-width: 100vw;
+  scroll-behavior: smooth;
 }
 .container {
   background-color: transparent;

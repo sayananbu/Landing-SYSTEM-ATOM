@@ -1,3 +1,5 @@
+$("#navbar-scrollspy").scrollspy({offset:55});
+
 
 const burger = document.querySelector('.nav-section__burger-menu')
 const navbar = document.querySelector('.nav-section__navbar')
@@ -44,5 +46,6 @@ $(document).ready(function () {
 	        }, 150);
 		e.preventDefault();
 		});
-
+	
+	
 });
