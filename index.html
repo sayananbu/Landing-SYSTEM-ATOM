@@ -41,14 +41,43 @@
       </div>
     </div>
 
-	<div class="card__modal-overlay">
-		<div class="card__modal">
-			<div class="modal__title-block">
-			<h3 class="title-block__title">Название продукта</h3>
-		</div>
-		</div>
-		
-	</div>
+    <div class="card__modal-overlay">
+      <div class="container justify-content-center">
+        <div class="card__modal">
+          <div class="modal__title-block">
+            <h3 class="title-block__title">Название продукта</h3>
+          </div>
+		  <div class="slider-wrapper">
+            <div
+              class="modal-slider"
+              data-slider="modal-slider"
+              data-loop="true"
+              data-autoplay="true"
+              data-interval="7000"
+            >
+                <div class="imodal-slider__slider-item">
+                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
+                </div>
+                <div class="imodal-slider__slider-item">
+                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
+                </div>
+                <div class="imodal-slider__slider-item">
+                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
+                </div>
+              <ol class="modal-slider__indicators">
+                <li class="itc-slider__indicator" data-slide-to="0"></li>
+                <li class="itc-slider__indicator" data-slide-to="1"></li>
+                <li class="itc-slider__indicator" data-slide-to="2"></li>
+                <li class="itc-slider__indicator" data-slide-to="3"></li>
+                <li class="itc-slider__indicator" data-slide-to="4"></li>
+                <li class="itc-slider__indicator" data-slide-to="5"></li>
+              </ol>
+              <button class="itc-slider__btn itc-slider__btn_prev"></button>
+              <button class="itc-slider__btn itc-slider__btn_next"></button>
+            </div></div>
+        </div>
+      </div>
+    </div>
 
     <div class="nav-section">
       <a href="index.html" class="nav-section__logo-wrapper">
@@ -1285,7 +1314,7 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js" defer></script>
     <script src="js/itc-slider.min.js" defer></script>
     <script src="js/jquery.js"></script>
-	<script src="js/scrollspy.js"></script>
+    <script src="js/scrollspy.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
