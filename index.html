@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/contacts.css" />
     <link rel="stylesheet" href="css/preloader.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/adaptive.css" />
     <link rel="icon" href="img/ico.svg" />
     <title>Систематом</title>
@@ -41,43 +42,7 @@
       </div>
     </div>
 
-    <div class="card__modal-overlay">
-      <div class="container justify-content-center">
-        <div class="card__modal">
-          <div class="modal__title-block">
-            <h3 class="title-block__title">Название продукта</h3>
-          </div>
-		  <div class="slider-wrapper">
-            <div
-              class="modal-slider"
-              data-slider="modal-slider"
-              data-loop="true"
-              data-autoplay="true"
-              data-interval="7000"
-            >
-                <div class="imodal-slider__slider-item">
-                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
-                </div>
-                <div class="imodal-slider__slider-item">
-                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
-                </div>
-                <div class="imodal-slider__slider-item">
-                  <img src="/img/photos/photo-1.png" alt="" class="slider-item__img">
-                </div>
-              <ol class="modal-slider__indicators">
-                <li class="itc-slider__indicator" data-slide-to="0"></li>
-                <li class="itc-slider__indicator" data-slide-to="1"></li>
-                <li class="itc-slider__indicator" data-slide-to="2"></li>
-                <li class="itc-slider__indicator" data-slide-to="3"></li>
-                <li class="itc-slider__indicator" data-slide-to="4"></li>
-                <li class="itc-slider__indicator" data-slide-to="5"></li>
-              </ol>
-              <button class="itc-slider__btn itc-slider__btn_prev"></button>
-              <button class="itc-slider__btn itc-slider__btn_next"></button>
-            </div></div>
-        </div>
-      </div>
-    </div>
+    
 
     <div class="nav-section">
       <a href="index.html" class="nav-section__logo-wrapper">
@@ -990,6 +955,7 @@
             <span class="title-underline"></span>
           </div>
           <div class="projects-page__slider">
+			<div class="slider__slider-container">
             <div
               class="itc-slider"
               data-slider="itc-slider"
@@ -1029,7 +995,7 @@
               </ol>
               <button class="itc-slider__btn itc-slider__btn_prev"></button>
               <button class="itc-slider__btn itc-slider__btn_next"></button>
-            </div>
+            </div></div>
           </div>
         </div>
       </section>

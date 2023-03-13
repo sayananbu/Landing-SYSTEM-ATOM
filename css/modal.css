@@ -1,0 +1,89 @@
+.card__modal-overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.4);
+	z-index: 3000;
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content: center;
+	align-items: center;
+	overflow-y: hidden;
+}
+.card__modal{
+	position: relative;
+	background-color: #fff;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 70%;
+	height: 80%;
+	border-radius: 15px;
+	padding:10px;
+	overflow: hidden;
+	overflow-y: auto;
+	border: 5px solid #fff;
+}
+.card__modal::-webkit-scrollbar{
+	width: 10px;
+}
+.card__modal::-webkit-scrollbar-track{
+background-color: transparent;
+}
+.card__modal::-webkit-scrollbar-thumb{
+	background-color: #32466A;
+	border-radius: 20px;
+}
+.modal__title-block{
+	display: grid;
+	position: relative;
+	padding: 20px 0;
+	place-items: center;
+}
+.title-block__title{
+	margin: 0;
+	color: #32466A;
+	font-size: 52px;
+}
+.modal__modal-slider{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 40px 0;
+}
+.slider__wrapper{
+	overflow: hidden;
+	position: relative;
+}
+.modal-slider__modal-slider-container{
+	display: flex;
+	position: relative;
+	width: 70%;
+	height: 400px;
+}
+.modal-slider__item{
+	width: 100%;
+	height: 100%;
+}
+.item__image{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	object-position: 50% 30%;
+}
+.modal__description{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.description__text{
+	width: 80%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 30px;
+	margin: auto;
+}

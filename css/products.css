@@ -140,37 +140,3 @@
 	        transform: scale(1.2);
 }
 
-.card__modal-overlay{
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0,0,0,.4);
-	z-index: 3000;
-	display: flex;
-	flex-flow:column nowrap;
-	justify-content: center;
-	align-items: center;
-	overflow-y: hidden;
-
-}
-.card__modal{
-	position: relative;
-	background-color: #fff;
-	width: 70%;
-	height: 80%;
-	border-radius: 20px;
-	padding:10px;
-}
-.modal__title-block{
-	display: block;
-	position: relative;
-}
-.title-block__title{
-
-	color: #000;
-	font-size: 25px;
-}
