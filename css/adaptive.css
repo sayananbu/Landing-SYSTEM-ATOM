@@ -92,7 +92,7 @@
 
 	/* title-page */
 	#title-page{
-		min-height: 850px;
+		min-height: 940px;
 		max-height: 980px;
 	}
 	.title-page__description{
@@ -286,7 +286,7 @@
 
 	/* title-page */
 	#title-page{
-		min-height: 600px;
+		min-height: 790px;
 	}
 	.title-page__title{
 		font-size: 50px;
